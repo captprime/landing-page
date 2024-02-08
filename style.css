@@ -1,7 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  overflow: scroll;
   margin: 0;
   padding: 0;
 }
@@ -48,6 +49,15 @@ body {
 
 }
 
+.section-3{
+  background-color: #E5e7eb;
+  padding: 32px 70px;
+  font-family:italic;
+  color: black;
+  font: size 36px; ;
+
+}
+
 .image {
   border: 2px solid green;
   box-sizing: border-box;
@@ -55,7 +65,21 @@ body {
   height: 200px;
   width: 300px;
 }
+.section-4 {
 
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  display: flex;
+ margin: 32px 80px;
+ padding: 20px;
+ justify-content: space-evenly;
+}
+
+div>div>h3 {
+  color: white;
+}
 #hero-text {
   font-size: 48px;
   font-weight: 900;
@@ -93,4 +117,14 @@ li {
 
 .body {
   flex: auto;
+}
+
+.footer {
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   align-items: center;
+  background-color:  #1f2937;
+  color:#e5e7eb;
+  
 }
